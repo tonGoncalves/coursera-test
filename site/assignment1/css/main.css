@@ -1,0 +1,123 @@
+/*Base Styles*/
+*{
+
+	box-sizing: border-box;
+	margin: 0;
+	
+}
+
+
+p{
+	border: 1px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	padding-top: 27px;
+	background: #d3d3d3;
+	color: black;
+
+
+
+}
+
+
+h1{
+
+	margin-top: 20px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+
+
+
+
+#p1{
+	background-color: yellow;
+	position: relative;
+	padding: 2px;
+	top: 24px;
+	text-align: center;
+	margin-left: 60%;
+	margin-bottom: 0;
+
+	
+}
+#p2{
+	background-color: red;
+	position: relative;
+	padding: 2px;
+	top: 24px;
+	text-align: center;
+	margin-left: 60%;
+	margin-bottom: 0;
+}
+#p3{
+	background-color: blue;
+	position: relative;
+	padding: 2px;
+	top: 24px;
+	text-align: center;
+	margin-left: 60%;
+	margin-bottom: 0;
+}
+
+/*Large Devices - Desktop*/
+
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4{
+		float: left;
+		
+
+	}
+
+.col-lg-1{
+	width: 8.33%;
+}
+.col-lg-2{
+	width: 16.66%;
+}
+.col-lg-3{
+	width: 25%;
+}
+.col-lg-4{
+	width: 33%
+}
+
+}
+
+/*Medium Devices  - Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-50, .col-md-100{
+		float: left;
+		
+
+		
+
+	}
+.col-md-50{
+	width: 49%;
+	
+}
+.col-md-100{
+	width: 98%;
+}
+
+
+}
+
+/*Smal Devices - Mobile*/
+
+@media (max-width: 767px){
+
+	.col-sm-100{
+		float: left;
+		
+	}
+.col-sm-100{
+	width: 100%;
+}
+
+}
+
